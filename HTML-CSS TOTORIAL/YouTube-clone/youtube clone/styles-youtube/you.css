@@ -1,0 +1,57 @@
+.main-div{
+    
+    display: grid;
+    grid-template-columns: 180px 400px;
+    width: 800px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 120px;
+
+}
+.profile-div{
+    
+
+}
+.profile{
+    
+    margin-left: 5px;
+    
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+
+}
+.profile-name{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 36px;
+}
+.info-div{
+display: grid;
+grid-template-rows: 50px 30px 40px;
+}
+#div{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+}
+#button{
+    border-radius: 12px;
+    width: 125px;
+    height: 32px;
+    border-bottom-left-radius:16px ;
+    border-bottom-right-radius: 16px;
+    border-bottom-width: 0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-top-width: 0px;
+    background-color:rgba(0, 0, 0,0.05) ;
+    cursor: pointer;
+}
+.active:id{
+    background-color: aqua;
+}
+.profile-info{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    color: rgb(116, 118, 118);
+}

@@ -1,0 +1,90 @@
+.channel-pic{
+    height: 136px;
+    width: 180px;
+}
+.img{
+    height: 120px;
+    width: 130px;
+    border-radius: 65px;
+    margin-left: 110px; 
+}
+.subscription{
+    display: grid;
+    grid-template-rows: 420px 1fr ;
+}
+.main-div{
+    display: grid;
+    grid-template-columns: 420px 300px 1fr ;
+    margin-left: 350px;
+}
+.name{
+    font-size: 22px;
+    margin-bottom: 8px;
+
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.subscribers{
+    
+    
+    
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 35px;
+    overflow: hidden;
+    display: block;
+    max-height: 3.6rem;
+    padding-bottom: 5px;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    margin-bottom: 4px;
+    color: rgb(160, 163, 163);
+}
+.description{
+    color: var(--yt-spec-text-secondary);
+    word-break: break-word;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 35px;
+    overflow: hidden;
+    display: block;
+    max-height: 3.6rem;
+    color: rgb(104, 104, 104);
+    
+
+}
+.info{
+    padding: 0 16px 16px 16px;
+    min-width: 0;
+    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px;
+    height: 102px;
+    flex: 1;
+    flex-basis: 0.000000001px;
+}
+.subscribe-bell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding-bottom: 8px;
+}
+.subscribed-button{
+    width: 150px;
+    font-weight: 800px;
+    height:35px;
+    margin-left: 60px;
+    border-radius: 16px;
+
+    border:none;
+    background-color:rgb(224, 224, 217); }
